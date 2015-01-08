@@ -1,0 +1,53 @@
+.content .forschung_funk {
+	 color: #000000;
+     background: #F2F2F2;
+     width: 470px;
+	 height:300px;
+	 margin-left: 10px;
+	 margin-bottom:15px;
+	 padding: 5px 0 10px 0;
+	 border-bottom: 1px solid #C8C8C8;
+	 border-top: 1px solid #C8C8C8;
+}
+
+.content .forschung_inka {
+	 color: #000000;
+     background: #F2F2F2;
+     width: 470px;
+	 height:330px;
+	 margin-left: 10px;
+	 margin-bottom:15px;
+	 padding: 5px 0 10px 0;
+	 border-bottom: 1px solid #C8C8C8;
+	 border-top: 1px solid #C8C8C8;
+}
+
+.content .info_forschung_funk {
+	background: #ffffff;
+	height:290px;
+	margin-top: 5px;
+}
+
+.content .info_forschung_inka {
+	background: #ffffff;
+	height:320px;
+	margin-top: 5px;
+}
+
+.content .pic_forschung {
+	float: right;
+	width: 100px;
+	height: 140px;
+	background: #ffffff;
+	margin: 5px 0 0 0.4em;
+}
+
+.content .beschreibung_forschung {
+	line-height: 1.2em;
+	margin-left:10px;
+	padding-top:5px;
+} 
+
+.content .ul_forschung {
+	margin-bottom:1em;
+}

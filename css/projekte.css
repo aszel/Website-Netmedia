@@ -1,0 +1,45 @@
+.content .projekt {
+	 color: #000000;
+     width: 455px;
+	 margin-left: 20px;
+	 margin-bottom:15px;
+	 border-top: 1px solid #C8C8C8;
+	 border-bottom: 1px solid #C8C8C8;
+}
+
+.content .projekt_header{
+	background:#F2F2F2;
+	height:1.6em;
+}
+
+.content .projekt_footer{
+	background:#F2F2F2;
+	height:1.5em;
+}
+
+.content .info_projekt {
+	background: #ffffff;
+	min-height:10em;
+	margin-top: 5px;
+}
+
+.content .pic_projekt {
+	float: right;
+	width: 100px;
+	height: 80px;
+	background: #ffffff;
+	margin: 5px 5px 0 0;
+}
+
+.content .projektbeschreibung {
+	line-height: 1.2em;
+	margin-left:10px;
+	padding-top:5px;
+}
+
+.content .mehrinfo {
+	height: 1.5em;
+	float:right;
+	margin-top:-1.2em;
+	margin-right:5px;
+} 

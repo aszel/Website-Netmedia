@@ -1,0 +1,63 @@
+.content .name {
+	 color: #000000;
+     background: #F2F2F2;
+     width: 455px;
+	 height: 225px;
+	 margin-left: 20px;
+	 margin-bottom:15px;
+	 padding: 5px 0 3px 0;
+	 border-bottom: 1px solid #C8C8C8;
+	 border-top: 1px solid #C8C8C8;
+}
+
+.content h4 {
+	 font-variant:small-caps;
+	 font-size: 13px;
+	 font-weight: bold;
+	 padding-left: 10px;
+	 margin-bottom: -15px;
+}
+
+.content .pic {
+	float: right;
+	width: 150px;
+	height: 160px;
+	background: #ffffff;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+.content .info_kontakt {
+	float: left;
+	width: 300px;
+	height: 140px;
+	background: #ffffff;
+	margin-top: 5px;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 15px 0 10px 5px;
+}
+
+.content #area {
+	font-size: 11px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	line-height:20px;
+	padding-left: 10px;
+}
+
+.content #adress {
+    margin: 0 0 20px 10px;
+}
+
+.content img {
+	margin-right: 5px;
+    margin-left: 5px;
+}
+
+.content #map {
+ 	margin: 0 0 30px 40px;
+    border: 1px solid  #C8C8C8;
+}

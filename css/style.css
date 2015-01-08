@@ -1,0 +1,336 @@
+/* standard elements */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f0ede6 url(http://www.energie-kompetenz.fhtw-berlin.de/gfx/bg.jpg) repeat-x top;
+	font: normal 0.7em Tahoma,Verdana,sans-serif;
+}
+
+.descr {
+	font-size: 13px;
+	color: #767676;
+	font-family: verdana;
+    margin-bottom: 10px;
+}
+.spacer {
+	height: 1px;
+}
+
+.spacer_big {
+	height: 20px;
+}
+
+/********************************* Gerüst */
+.main {
+	width: 750px;
+	margin: 0 auto;
+    min-height: 100%;
+	background: #fff url(http://www.energie-kompetenz.fhtw-berlin.de/gfx/bg_main.jpg) repeat-y center top;
+}
+
+.main_left {
+	float: left;
+	padding-top: 6px;
+	padding-right: 5px;
+	width: 230px;
+	background:#fff;
+}
+
+.main_right {
+	border-top: 6px solid #FFF;
+	float: right;
+	width: 515px;
+}
+
+.footer {clear: both;}
+
+/******************************** misc */
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.header,.lbl {
+	border-bottom: 2px solid #FFF;
+}
+
+/******************************** logo */
+
+.header {
+	height: 149px;
+}
+
+.logo {
+    background-image:url(http://www.energie-kompetenz.fhtw-berlin.de/gfx/logo.jpg);
+    height: 43px;
+    margin-left:0; margin-right:0; margin-top:15px; margin-bottom:12px
+}
+
+.Sprache {
+         height: 10px;
+         margin-left:8px; margin-right:0; margin-top:15px; margin-bottom:5px
+}
+
+/***************************** main navigation */
+
+.link_menu {
+	background: #77B900;
+}
+
+.link_menu a {
+	color: #fff;
+	border-bottom: 1px solid #FFF;
+	display: block;
+	font: bold 0.9em Verdana,sans-serif;
+	height: 18px;
+	padding: 6px 0 0 10px;
+	text-decoration: none;
+}
+
+.link_menu a:hover {background: #9DD13E;}
+
+/************************************** referenz */
+
+.lbl {
+	background: #C9C9C9;
+	clear: both;
+	color: #ffffff;
+	font: bold 1.2em "Lucida Sans Unicode",sans-serif;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.lbl h1 {
+	font: bold 1.4em "Trebuchet MS",sans-serif;
+	font-variant:small-caps;
+    text-align: center;
+    line-height: 30px;
+}
+
+/********************************* subnavi */
+
+.subnavi {
+	min-height: 31em;
+    background:#E0E0E0;
+}
+
+.subnavi .lbl {
+	height: 30px;
+	line-height: 30px;
+}
+
+.subnavi a {
+
+	clear: right;
+	display: block;
+	font: normal 1.2em "Trebuchet MS",sans-serif;
+	height: 38px;
+	padding: 2px 0 2px;
+	text-align: center;
+    border-bottom: 2px solid #FFF;
+}
+
+.subnavi a span {
+	float: left;
+	font: normal 3em Verdana,sans-serif;
+	letter-spacing: -2px;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+
+/*********************************** content */
+
+.content {
+	color: #444;
+	font-family: Verdana,sans-serif;
+	line-height: 1.3em;
+	padding: 0 10px 10px;
+}
+
+.content a {
+	color: #77B900;
+    text-decoration: none;
+}
+
+.content a:hover{
+	color: #77B900;
+    text-decoration: underline;
+}
+
+.content h1 {
+	color: #444;
+	font: normal 1.8em sans-serif;
+	margin: 18px 0 0 0;
+}
+
+.content h2 {
+	color:#666666;
+	font: normal 1.6em sans-serif;
+	margin-bottom:0.5em;
+	margin-top:1em;
+}
+
+.content h4 {
+	 font-variant:small-caps;
+	 font-size: 13px;
+	 font-weight: bold;
+	 padding-left: 10px;
+}
+
+.content h5 {
+	color: #444;
+	font: bold 1.2em sans-serif;
+	margin: 18px 0 0 0;
+}
+
+.content p {
+	margin: 4px 8px 10px 0;
+    text-align: justify;
+}
+
+.content ul {
+	margin-bottom:1em;
+}
+
+.content li {
+	margin-left: 18px;
+}
+
+.content .zurueck {
+	margin-left: 10px;
+	margin-bottom:2px;
+}
+
+.content ol li {
+	margin-bottom:1em;
+}
+
+.subnavi_publikationen {
+	height:1em;
+}
+
+.subnavi_publikationen li {
+	margin:0 0.4em 0 0;
+	list-style:none;
+	float:left;
+}
+/****************************** footer */
+
+.footer {
+	background: #ffffff;
+	color: #666;
+	clear: both;
+}
+
+.footer .right a {
+	background: #ffffff;
+	color: #77B900;
+	padding: 1px 3px;
+    text-decoration: none;
+}
+
+.footer .right a:hover {
+	background: #ffffff;
+	color: #77B900;
+    text-decoration: underline;
+}
+
+.footer .left {
+    background: #E0E0E0;
+    padding: 9px 0 9px 9px;
+	width: 221px;
+    text-align: center;
+    height: 12px;
+    line-heigt: 12px;
+}
+
+.footer .right {
+	background: #ffffff;
+	padding: 9px 9px 9px 9px;
+	text-align: right;
+	width: 502px;
+    height: 12px;
+    line-heigt: 12px;
+}
+
+/**************************** Menue */
+
+.menu_2 {
+  	min-height: 13em;
+ 	background:#E0E0E0;
+}
+
+.menu_2 li {
+ 	list-style-type:none;
+  	float:left;
+  	display:block;
+  	width:100%;
+}
+
+.menu_2 li a {
+  	display:block;
+  	text-decoration:none;
+  	color:#00b;
+  	margin:0;
+  	width:100%;
+    height:auto;
+}
+
+.menu_2 li a:hover {
+  	background:#C9C9C9 url(navi_bg.jpg) repeat;
+}
+
+.menu_2 .h2 {
+  	margin:0 0px;
+  	padding:0;
+  	color:#434343;
+  	font-variant:small-caps;
+  	font-size:13px;
+  	border:0;
+}
+
+.menu_2 .h3 {
+  	margin:0 3px;
+  	padding:0;
+  	font-size:11px;
+  	color:#77B900;
+}
+
+.aktuell {
+	background: #F5F5F5;
+    padding: 9px 9px 9px 25px;
+    color: #434343;
+    font: normal 1em Verdana,sans-serif;
+    list-style-image: url(link.gif);
+    border-bottom: 2px solid #ffffff;
+}
+
+.aktuell li {
+	/*margin: -3px 0 -3px 0;*/
+}
+
+.aktuell a {
+	background: #F5F5F5;
+    color: #77B900;;
+    font: normal 1em Verdana,sans-serif;
+    text-decoration: none;
+}
+
+.aktuell a:hover {
+     text-decoration: underline;
+}
+
+.aktuell_bg {
+	min-height: 31em;
+    background:#E0E0E0;
+}
